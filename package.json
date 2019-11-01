@@ -1,0 +1,20 @@
+{
+  "name": "@taraflex/tpl",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "publish-library": "tsc -p tsconfig.json && npm publish --registry=https://registry.npmjs.org/ --access=public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taraflex/tpl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taraflex/tpl/issues"
+  },
+  "homepage": "https://github.com/Taraflex/tpl#readme"
+}
